@@ -1,48 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" 
-    integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- NAV !-->
     <nav id="navbar" class="nav">
       <ul class="nav-list">
-        <li><a href="#welcome-section">Home</a></li>
-        <li><a href="#about-section">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#welcome-section"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li>
+          <a href="#about-section"><i class="fa-solid fa-laptop-code"></i></a>
+        </li>
+        <li>
+          <a href="#projects"><i class="fa-regular fa-file-code"></i></a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fa-solid fa-address-book"></i></a>
+        </li>
+        <!-- </li><a><i class="fa-solid fa-moon"></i></a></li> -->
       </ul>
     </nav>
     <!-- WELCOME SECTION !-->
     <section id="welcome-section" class="welcome-section">
-      <h1>Hello there, I am Moritz</h1
-      <p>I am an aspiring software developer</p>
+      <h1>Hello there, I am Moritz</h1>
+      <p>I am an aspiring application developer</p>
     </section>
-     <!-- WELCOME SECTION !-->
-     <section id="about-section" class="about-section">
-        <h1>About</h1>
-        <p>Former student of Global Business & Economics and now aspiring software developer. During <br> my studies 
-            I started to look into programming and liked it very much. Since the <br>beginning of this year I'm actively attending a beginner's course at the 
-            <a href="https://www.freecodecamp.org/m0rthe" target="_blank" alt="freeCodeCamp">freeCodeCamp</a>. <br> I got my first insights into HTML/CSS and Javascript.
-            For the future I plan to get familiar with<br>React.js and upload more projects here on Github.</p>
-    <!--m0rthe notes: maybe improve information
-        add some icons etc. ...
-    -->
+    <!-- ABOUT SECTION !-->
+    <section id="about-section" class="about-section" style="padding-top: 30px;">
+      <!-- first part -->
+      <h1 style="line-height: 70px;border-bottom: 0.2rem solid var(--main-white);">How I started</h1>
+      <p style="text-align: center;padding-top: 15px;">
+        Former student of economics and now aspiring application developer.
+        During my studies<br />
+        I started getting into programming and really enjoyed it. In the
+        beginning of 2023, I actively <br />attended a beginner's course at the
+        <a
+          href="https://www.freecodecamp.org/m0rthe"
+          target="_blank"
+          alt="freeCodeCamp"
+          >freeCodeCamp <i class="fa-brands fa-free-code-camp"></i></a
+        >. I got my first insights into HTML/CSS<br />
+        and Javascript. I plan to upload more projects here on Github.
+      </p>
+      <!-- second part -->
+      <!-- skills / using div as container-->
+  <div style="display: flex; padding: 20px 0px 20px 0px;">
+    <!-- ^ container div with display styling -->
+  <div class="left">
+    <h2 style="padding: 15px 0px 15px 0px;" class="skills-text">
+      I have a grasp of<br />
+    </h2>
+    <div id="skills" class="skills-grid" align="center">
+            <!--- style="border: 15px solid white" -->
+    <a class="skills skills-tile"
+      ><i class="fa-brands fa-html5 fa-2xl grid-img"></i>
+      <p class="skills-title">
+        HTML
+      </p>
+    </a>
+    <a class="skills skills-tile"
+    ><i class="fa-brands fa-css3-alt fa-2xl grid-img"></i>
+    <p class="skills-title">
+      CSS
+    </p>
+  </a>
+  <a class="skills skills-tile"
+    ><i class="fa-brands fa-js fa-2xl grid-img"></i>
+    <p class="skills-title">
+      JavaScript
+    </p>
+  </a>
+  <a class="skills skills-tile"
+    ><i class="fa-brands fa-python fa-2xl grid-img"></i>
+    <p class="skills-title">
+      Python
+    </p>
+  </a>
+  <a class="skills skills-tile"
+  ><i class="fa-solid fa-terminal fa-2xl grid-img"></i>
+  <p class="skills-title">
+    Bash
+  </p>
+</a>
+  <a class="skills skills-tile"><i class="fa-brands fa-github fa-2xl grid-img"></i> 
+    <p class="skills-title">
+      Github
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-git-alt fa-2xl grid-img"></i>
+    <p class="skills-title">
+      Git
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-docker fa-2xl grid-img"></i>
+    <p class="skills-title">
+      Docker
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-windows fa-2xl grid-img"></i>
+    <p class="skills-title">
+      Windows
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-linux fa-2xl grid-img"></i>
+    <p class="skills-title">
+      Linux
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-apple fa-2xl grid-img"></i>
+    <p class="skills-title">
+      macOS
+    </p>
+  </a>
+  <a class="skills skills-tile"><i class="fa-brands fa-question fa-2xl grid-img"></i>
+    <p class="skills-title">
+      ...
+    </p>
+  </a>
+  </div>
+  </div>
+  <!-- for padding in between -->
+  <div style="padding-left: 50px; padding-right: 50px;"></div>
+  <!-- third part; fa-solid -->
+  <div class="right">
+    <h2 style="padding: 15px 0px 15px 0px;" class="skills-text">
+      I plan to learn
+      </h2>
+      <div id="skills" class="skills-grid" align="center">
+        <a class="skills skills-tile"
+          ><i class="fa-brands fa-react fa-2xl grid-img"></i>
+          <p class="skills-title">
+            React
+          </p>
+        </a>
+        <a class="skills skills-tile"
+        ><i class="fa-brands fa-golang fa-2xl grid-img"></i>
+        <p class="skills-title">
+          Golang
+        </p>
+      </a>
+      <a class="skills skills-tile"
+        ><i class="fa-brands fa-java fa-2xl grid-img"></i>
+        <p class="skills-title">
+          Java
+        </p>
+      </a>
+      <a class="skills skills-tile"
+        ><i class="fa-solid fa-database fa-2xl grid-img"></i>
+        <p class="skills-title">
+          SQL
+        </p>
+      </a>
+      <a class="skills skills-tile"
+      ><i class="fa-solid fa-c fa-2xl grid-img"></i
+        ><i class="fa-solid fa-hashtag fa-2xl grid-img"></i
+      >
+      <p class="skills-title">C sharp
+      </p></a>
+      <a class="skills skills-tile"><i class="fa-brands fa-question fa-2xl grid-img"></i>
+        <p class="skills-title">
+          ...
+        </p>
+      </a>
+      </div> <!-- div element of right-->
+    </div> <!-- div element of right-->
+    </div> <!-- end div element of skills-->
+    <!-- Preferences -->
+    <section id="about-section" class="about-section" style="border-top: 5px solid var(--main-gray3)">
+    <div></div>
+      <h1 style="line-height: 70px; margin: 10px 0 25px 0px;
+      border-bottom: 0.2rem solid var(--main-white);">Preferences</h1>
+      <p style="text-align: center">
+        When I'm programming, I use my Keychron K2 mechanical keyboard with an<br> english layout, because I
+        find it much easier for programming. This helps me to be<br> more productive. 
+        The operating system I mostly use is
+        Windows <i class="fa-brands fa-windows"></i> , but sometimes<br> I prefer using Linux
+        <i class="fa-brands fa-ubuntu"></i> . As of recently I'm also using macOS
+        <i class="fa-brands fa-apple"></i> .
+      </p>
+      <h1 style="line-height: 70px; margin: 50px 0 25px 0; border-bottom: 0.2rem solid var(--main-white);">Future goals</h1>
+      <p style="text-align: center">
+        It is important to me that I further solidify my current knowledge
+        and<br />
+        acquire new skills. I want to focus on front-end first and get to know
+        the <br />individual contents better. However, I have started to
+        familiarise myself<br />
+        a bit with back-end as well. In the distant future, I want to
+        become<br />
+        a full-stack developer.
+      </p>
     </section>
+    </section> <!-- end section element of about section-->
+      <!--m0rthe notes: ... -->
     <!-- PROJECTS SECTION -->
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">These are some of my projects</h2>
+    <section id="projects" class="projects-section" style="border-top: 5px solid var(--main-gray3);">
+      <h1 class="projects-section-header" style="line-height: 70px;">Some of my projects</h1>
       <div class="projects-grid">
         <a
           href="https://m0rthe.github.io/diceroll-web/"
           target="_blank"
           class="project project-tile"
         >
-           <img
+          <img
             class="project-image"
             src="images/diceroll-pixabay-logo-freecom.png"
             alt="project"
@@ -54,10 +223,11 @@
           </p>
         </a>
         <a
-          href="https://github.com/m0rthe/diceroll"
+          href="https://github.com/m0rthe/DiceRoll"
           target="_blank"
           class="project project-tile"
-        > <!-- added DiceRoll Discord.js Bot -->
+        >
+          <!-- added DiceRoll Discord.js Bot -->
           <img
             class="project-image"
             src="images/purple_d20.png"
@@ -135,10 +305,8 @@
         </a>
       </div>
     </section>
-
     <!-- CONTACT SECTION -->
-
-  <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section">
       <div class="contact-section-header">
         <!--<h2>You can contact me via ...</h2>-->
       </div>
@@ -153,15 +321,20 @@
         <a
           href="https://www.linkedin.com/in/moritz-theodoridis/"
           target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-linkedin"></i> LinkedIn</a
+          class="btn contact-details"><i class="fab fa-linkedin"></i> LinkedIn</a
         >
-        <a href="mailto:m0rthe@duck.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        <a href="mailto:m0rthe@duck.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
         >
-        <!-- <a href="tel:555-555-5555" class="btn contact-details"
-          ><i class="fas fa-mobile-alt"></i> Call me</a
-        >-->
-      </div>
+        <div style="padding-bottom: 100px;"></div>
+        <!-- FOOTER / style="display: block;"-->
+        <footer>
+          <p>
+            Site designed by <bold>m0rthe</bold>. Inspired by the template from
+            freeCodeCamp
+            <i class="fa-brands fa-free-code-camp"></i>
+          <p>Icons used by <a href="https://fontawesome.com/">FontAwesome</a></p>
+        </footer>
     </section>
   </body>
 </html>
